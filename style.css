@@ -1,0 +1,1688 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,500,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gothic A1', sans-serif;
+    word-break: keep-all;
+    outline: none;
+}
+
+.blinking {
+    -webkit-animation: blink 0.5s ease-in-out infinite alternate;
+    -moz-animation: blink 0.5s ease-in-out infinite alternate;
+    animation: blink 0.5s ease-in-out infinite alternate;
+}
+
+.blinking2 {
+    -webkit-animation: blink 1s ease-in-out infinite alternate;
+    -moz-animation: blink 1s ease-in-out infinite alternate;
+    animation: blink 1s ease-in-out infinite alternate;
+}
+
+.blinking3 {
+    -webkit-animation: blink 1.5s ease-in-out infinite alternate;
+    -moz-animation: blink 1.5s ease-in-out infinite alternate;
+    animation: blink 1.5s ease-in-out infinite alternate;
+}
+
+.blinking4 {
+    -webkit-animation: blink 0.7s ease-in-out infinite alternate;
+    -moz-animation: blink 0.7s ease-in-out infinite alternate;
+    animation: blink 0.7s ease-in-out infinite alternate;
+}
+
+.blinking5 {
+    -webkit-animation: blink 1.3s ease-in-out infinite alternate;
+    -moz-animation: blink 1.3s ease-in-out infinite alternate;
+    animation: blink 1.3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*산타-----------------------------------------------------------------------------------------------------------------*/
+
+#santa img {
+    position: absolute;
+
+    width: 95px;
+    height: 160px;
+
+    margin-top: 2505px;
+    margin-left: 580px;
+}
+
+/*deco-----------------------------------------------------------------------------------------------------------------*/
+
+.bg_snowflake_1 img {
+    position: absolute;
+
+    width: 440px;
+    height: 436px;
+
+    margin-top: 1000px;
+    margin-left: -45px;
+}
+
+.bg_snowflake_2 img {
+    position: absolute;
+
+    width: 483px;
+    height: 456px;
+
+    margin-top: 1800px;
+    margin-left: 1570px;
+
+    overflow: hidden;
+}
+
+.bg_candy img {
+    position: absolute;
+
+    width: 345px;
+    height: 345px;
+
+    margin-top: 2700px;
+    margin-left: -45px;
+}
+
+.bg_ball img {
+    position: absolute;
+
+    width: 335px;
+    height: 374px;
+
+    margin-top: 3600px;
+    margin-left: 1670px;
+}
+
+.bg_cooky img {
+    position: absolute;
+
+    width: 436px;
+    height: 477px;
+
+    margin-top: 4600px;
+    margin-left: -165px;
+}
+
+.bg_star img {
+    position: absolute;
+
+    width: 444px;
+    height: 443px;
+
+    margin-top: 5800px;
+    margin-left: 1650px;
+}
+
+.bg_giftbox img {
+    position: absolute;
+
+    width: 420px;
+    height: 476px;
+
+    margin-top: 6800px;
+    margin-left: -150px;
+}
+
+.bg_socks img {
+    position: absolute;
+
+    width: 321px;
+    height: 529px;
+
+    margin-top: 8000px;
+    margin-left: 1650px;
+}
+
+.bg_snowflake_3 img {
+    position: absolute;
+
+    width: 440px;
+    height: 436px;
+
+    margin-top: 9200px;
+    margin-left: -45px;
+}
+
+/*헤더-----------------------------------------------------------------------------------------------------------------*/
+
+#header {
+    background-color: #ffffff;
+}
+
+nav {
+    font-weight: 500;
+
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+    background-color: #ffffff;
+
+    margin-left: 613px;
+    margin-right: 343px;
+
+    position: absolute;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 15px;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+
+    display: inline-flex;
+}
+
+nav ul li a {
+    text-decoration-line: none;
+    color: rgba(0, 0, 0);
+    transition: .2s;
+}
+
+nav ul li a:hover {
+    text-decoration-line: none;
+    color: rgba(0, 0, 0, .7);
+    transition: .2s;
+}
+
+.santa_hat {
+    width: 73px;
+    height: 52px;
+
+    padding-top: 38px;
+    margin-left: 360px;
+
+    position: absolute;
+}
+
+
+.title {
+    width: 100%;
+}
+
+#title_decoration {
+    opacity: 0;
+}
+
+#title_decoration > img:nth-of-type(1) {
+    width: 116px;
+    height: 145px;
+
+    position: absolute;
+
+    margin-top: 410px;
+    margin-left: 480px;
+}
+
+#title_decoration > img:nth-of-type(2) {
+    width: 116px;
+    height: 145px;
+
+    position: absolute;
+
+    margin-top: 410px;
+    margin-left: 1285px;
+}
+
+#title-image1 {
+    position: absolute;
+
+    width: 659px;
+    height: 175px;
+
+    top: 430px;
+    left: 0;
+    right: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+}
+
+#title-image2 {
+    position: absolute;
+
+    width: 1153px;
+    height: 359px;
+
+    top: 620px;
+    left: 0;
+    right: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+}
+
+.title-image1-line {
+    position: absolute;
+
+    width: 659px;
+    height: 175px;
+
+    top: 430px;
+    left: 0;
+    right: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-image2-line {
+    position: absolute;
+
+    width: 1153px;
+    height: 359px;
+
+    top: 620px;
+    left: 0;
+    right: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.hr {
+    position: absolute;
+
+    width: 37px;
+    text-align: center;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 870px;
+    margin-left: auto;
+    margin-right: auto;
+
+    opacity: 0;
+
+    border: 1px solid #707070;
+}
+
+.intro {
+    position: absolute;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 170%;
+    letter-spacing: -0.5px;
+
+    left: 0;
+    right: 0;
+    margin-top: 980px;
+    margin-left: auto;
+    margin-right: auto;
+
+    opacity: 0;
+}
+
+/*산타 유래-----------------------------------------------------------------------------------------------------------------*/
+
+.starWrap {
+    opacity: 0;
+    transition: 1s;
+}
+
+.treeWrap {
+    position: absolute;
+
+    width: 796px;
+    height: 1211px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.starLightWrap {
+    position: absolute;
+
+    width: 270px;
+    height: 167px;
+
+    left: 0;
+    right: 0;
+
+    padding-right: 15px;
+
+    margin-top: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tree_balls {
+    position: absolute;
+
+    mix-blend-mode: multiply;
+
+    width: 631px;
+    height: 825px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 1590px;
+    margin-left: 610px;
+
+    opacity: 0;
+}
+
+.decoWrap1 {
+    position: absolute;
+
+    mix-blend-mode: multiply;
+
+    width: 291px;
+    height: 120px;
+
+    margin-top: 1680px;
+    margin-left: 784px;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.decoWrap2 {
+    position: absolute;
+
+    mix-blend-mode: multiply;
+
+    width: 291px;
+    height: 120px;
+
+    margin-top: 1930px;
+    margin-left: 763px;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.decoWrap3 {
+    position: absolute;
+
+    mix-blend-mode: multiply;
+
+    width: 515px;
+    height: 136px;
+
+    margin-top: 2250px;
+    margin-left: 670px;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.origin_text1 {
+    position: absolute;
+    margin-top: 1640px;
+    margin-left: 490px;
+
+    text-align: right;
+
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+
+    width: 320px;
+
+    opacity: 0;
+}
+
+.origin_text2 {
+    position: absolute;
+    margin-top: 1912px;
+    margin-left: 1145px;
+
+    text-align: left;
+
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+
+    width: 330px;
+
+    opacity: 0;
+}
+
+.origin_text3 {
+    position: absolute;
+    margin-top: 2080px;
+    margin-left: 332px;
+
+    text-align: right;
+
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+
+    width: 340px;
+
+    opacity: 0;
+}
+
+.origin_text4 {
+    position: absolute;
+    margin-top: 2340px;
+    margin-left: 1270px;
+
+    text-align: left;
+
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+
+    width: 310px;
+
+    opacity: 0;
+}
+
+.blank {
+    height: 2670px;
+}
+
+/*집-----------------------------------------------------------------------------------------------------------------*/
+
+#house {
+    position: relative;
+    mix-blend-mode: multiply;
+}
+
+#house img {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*7층:굴뚝-----------------------------------------------------------------------------------------------------------------*/
+
+.floor_blank1 {
+    position: relative;
+
+    width: 1920px;
+    height: 800px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 290px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid transparent;
+}
+
+#chimney {
+    float: left;
+    mix-blend-mode: multiply;
+    margin-top: 10px;
+    margin-left: 370px;
+}
+
+.chair {
+    float: left;
+    margin-top: 455px;
+    margin-left: 22px;
+}
+
+#socks {
+    float: left;
+    margin-top: 125px;
+    margin-left: 27px;
+}
+
+.reason_text {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 753px;
+
+    opacity: 0;
+    transition: 1s;
+}
+
+.reason_text span {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.reason_text p {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.plant {
+    float: left;
+    margin-top: 350px;
+}
+
+.gift {
+    position: absolute;
+    margin-top: 660px;
+    margin-left: 1220px;
+}
+
+
+/*6층:이미지-----------------------------------------------------------------------------------------------------------------*/
+
+#floor_blank2 {
+    position: relative;
+
+    width: 1200px;
+    height: 800px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid transparent;
+}
+
+.candle {
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 250px;
+}
+
+.candle_light {
+    position: absolute;
+    mix-blend-mode: multiply;
+}
+
+.candleWrap {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 25px;
+}
+
+.candle2 {
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 250px;
+}
+
+.frameBlank {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 3px dashed red;
+
+}
+
+.frameImg img {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 165px;
+    margin-left: auto;
+    margin-right: auto;
+
+    z-index: 500;
+}
+
+.frame1stImg img {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 37px;
+    margin-left: 78px;
+}
+
+.frame2ndImg img {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame3rdImg img {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame4thImg img {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame1stImg_again img {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 0;
+    margin-left: 530px;
+}
+
+.frame1stImg_text {
+    position: absolute;
+    width: 450px;
+
+    left: 0;
+    right: 0;
+    margin-top: 515px;
+    margin-left: auto;
+    margin-right: auto;
+
+    z-index: 300;
+    opacity: 0;
+    transition: 1s;
+}
+
+.frame1stImg_text span {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.frame1stImg_text p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.frame2ndImg_text {
+    position: absolute;
+    width: 450px;
+
+    left: 0;
+    right: 0;
+    margin-top: 515px;
+    margin-left: auto;
+    margin-right: auto;
+
+    z-index: 300;
+    opacity: 0;
+    transition: 1s;
+}
+
+.frame2ndImg_text span {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.frame2ndImg_text p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.frame3rdImg_text {
+    position: absolute;
+    width: 450px;
+
+    left: 0;
+    right: 0;
+    margin-top: 515px;
+    margin-left: auto;
+    margin-right: auto;
+
+    z-index: 300;
+    opacity: 0;
+    transition: 1s;
+}
+
+.frame3rdImg_text span {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.frame3rdImg_text p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.frame4thImg_text {
+    position: absolute;
+    width: 450px;
+
+    left: 0;
+    right: 0;
+    margin-top: 515px;
+    margin-left: auto;
+    margin-right: auto;
+
+    z-index: 300;
+    opacity: 0;
+    transition: 1s;
+}
+
+.frame4thImg_text span {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.frame4thImg_text p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.imgHide_top {
+    position: absolute;
+
+    width: 500px;
+    height: 190px;
+
+    left: 0;
+    right: 0;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 3px dashed transparent;
+}
+
+.imgHide_bottom {
+    position: absolute;
+
+    width: 500px;
+    height: 250px;
+
+    left: 0;
+    right: 0;
+    margin-top: 455px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 3px dashed transparent;
+}
+
+/*5층:조력자-----------------------------------------------------------------------------------------------------------------*/
+
+#floor_blank3 {
+    position: relative;
+
+    width: 1200px;
+    height: 800px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid transparent;
+}
+
+.bulbs {
+    position: absolute;
+
+    width: 1197px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.helper_text {
+    position: absolute;
+    width: 450px;
+
+    left: 0;
+    right: 0;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+
+    z-index: 300;
+    opacity: 0;
+    transition: 1s;
+}
+
+.helper_text span {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.helper_text p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.snowball {
+    position: absolute;
+
+    width: 371px;
+
+    left: 0;
+    right: 0;
+
+    padding-left: 45px;
+    margin-top: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.snowball_twinkle1 {
+    position: absolute;
+
+    width: 246px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.snowball_twinkle2 {
+    position: absolute;
+
+    width: 246px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.snowball_rudolph {
+    position: absolute;
+
+    width: 150px;
+
+    left: 0;
+    right: 0;
+
+    padding-left: 15px;
+    margin-top: 445px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*4층:국적-----------------------------------------------------------------------------------------------------------------*/
+
+#floor_blank4 {
+    position: relative;
+
+    width: 1200px;
+    height: 800px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid transparent;
+}
+
+#nationality_text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+
+    margin-top: 70px;
+}
+
+#nationality_text2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+
+    margin-top: 525px;
+}
+
+.stamps ul li {
+    list-style: none;
+
+    position: absolute;
+
+    width: 1147px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    opacity: 0;
+    transition: 1s;
+}
+
+/*3층:추적-----------------------------------------------------------------------------------------------------------------*/
+
+#floor_blank5 {
+    position: relative;
+    overflow: hidden;
+
+    width: 1200px;
+    height: 800px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 31.5px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid transparent;
+}
+
+.trace_text {
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+
+    width: 1200px;
+
+    left: auto;
+    right: auto;
+
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ball_1 {
+    position: absolute;
+
+    width: 198px;
+    height: 307px;
+
+    margin-top: -307px;
+    margin-left: 95px;
+}
+
+.ball1_img > img:nth-of-type(2) {
+    position: absolute;
+
+    margin-top: 162px;
+    margin-left: -160px;
+}
+
+.ball1_img > img:nth-of-type(3) {
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+
+    margin-top: 162px;
+    margin-left: -160px;
+}
+
+.ball1_img > img:nth-of-type(3):hover {
+    position: absolute;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.ball1_text {
+    position: absolute;
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+
+    width: 275px;
+    margin-top: 15px;
+    margin-left: -40px;
+
+    opacity: 0;
+    transition: 1s;
+}
+
+.ball_2 {
+    position: absolute;
+
+    width: 184px;
+    height: 486px;
+
+    margin-top: -486px;
+    margin-left: 375px;
+}
+
+.ball2_img > img:nth-of-type(2) {
+    position: absolute;
+
+    margin-top: 242px;
+    margin-left: -132px;
+}
+
+.ball2_img > img:nth-of-type(3) {
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+
+    margin-top: 242px;
+    margin-left: -132px;
+}
+
+.ball2_img > img:nth-of-type(3):hover {
+    position: absolute;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.ball2_text {
+    position: absolute;
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+
+    width: 275px;
+    margin-top: 15px;
+    margin-left: -40px;
+
+    opacity: 0;
+    transition: 1s;
+}
+
+.ball_3 {
+    position: absolute;
+
+    width: 232px;
+    height: 339px;
+
+    margin-top: -339px;
+    margin-left: 620px;
+}
+
+.ball3_img > img:nth-of-type(2) {
+    position: absolute;
+
+    margin-top: 185px;
+    margin-left: -181px;
+}
+
+.ball3_img > img:nth-of-type(3) {
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+
+    margin-top: 185px;
+    margin-left: -181px;
+}
+
+.ball3_img > img:nth-of-type(3):hover {
+    position: absolute;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.ball3_text {
+    position: absolute;
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+
+    width: 275px;
+    margin-top: 15px;
+    margin-left: -20px;
+
+    opacity: 0;
+    transition: 1s;
+}
+
+.ball_4 {
+    position: absolute;
+
+    width: 198px;
+    height: 434px;
+
+    margin-top: -434px;
+    margin-left: 915px;
+}
+
+.ball4_img > img:nth-of-type(2) {
+    position: absolute;
+
+    margin-top: 300px;
+    margin-left: -145px;
+}
+
+.ball4_img > img:nth-of-type(3) {
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+
+    margin-top: 300px;
+    margin-left: -145px;
+}
+
+.ball4_img > img:nth-of-type(3):hover {
+    position: absolute;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.ball4_text {
+    position: absolute;
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+
+    width: 275px;
+    margin-top: 15px;
+    margin-left: -35px;
+
+    opacity: 0;
+    transition: 1s;
+}
+
+/*2층:범죄자-----------------------------------------------------------------------------------------------------------------*/
+
+#floor_blank6 {
+    position: relative;
+    overflow: hidden;
+
+    width: 1200px;
+    height: 800px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid transparent;
+}
+
+.crime_title {
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+
+    width: 1200px;
+
+    left: auto;
+    right: auto;
+
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bubble > img:nth-of-type(1) {
+    position: absolute;
+    width: 927px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 115px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bubble > img:nth-of-type(2) {
+    position: absolute;
+    width: 70px;
+
+    margin-top: 520px;
+    margin-left: 242px;
+}
+
+.train img {
+    position: absolute;
+    width: 785px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 625px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.crime {
+    position: absolute;
+
+    width: 410px;
+    margin-top: 195px;
+
+    left: 0;
+    right: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    opacity: 0;
+    transition: 1s;
+}
+
+.crime img {
+    width: 170px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.crime span {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+}
+
+.crime p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 145%;
+}
+
+.number1 {
+    position: absolute;
+    margin-top: 655px;
+    margin-left: 469px;
+}
+
+.number2 {
+    position: absolute;
+    margin-top: 655px;
+    margin-left: 620px;
+}
+
+.number3 {
+    position: absolute;
+    margin-top: 655px;
+    margin-left: 769px;
+}
+
+.number4 {
+    position: absolute;
+    margin-top: 655px;
+    margin-left: 905px;
+}
+
+.number1_fill {
+    position: absolute;
+
+    width: 20px;
+
+    margin-top: 655px;
+    margin-left: 469px;
+
+    opacity: 0;
+    transition: 1s;
+}
+
+.number2_fill {
+    position: absolute;
+
+    width: 38px;
+
+    margin-top: 655px;
+    margin-left: 620px;
+
+    opacity: 0;
+    transition: 1s;
+}
+
+.number3_fill {
+    position: absolute;
+
+    width: 36px;
+
+    margin-top: 655px;
+    margin-left: 769px;
+
+    opacity: 0;
+    transition: 1s;
+}
+
+.number4_fill {
+    position: absolute;
+
+    width: 36px;
+
+    margin-top: 655px;
+    margin-left: 905px;
+
+    opacity: 0;
+    transition: 1s;
+}
+
+/*1층:문-----------------------------------------------------------------------------------------------------------------*/
+
+#floor_blank7 {
+    position: relative;
+
+    width: 1200px;
+    height: 1000px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid transparent;
+}
+
+.goodbye img {
+    position: absolute;
+
+    width: 1054px;
+    left: 0;
+    right: 0;
+
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+
+    z-index: 300;
+}
+
+.door {
+    overflow: hidden;
+    width: 461px;
+    height: 670px;
+}
+
+.door img {
+    position: absolute;
+
+    width: 461px;
+    height: 670px;
+
+    margin-top: 194px;
+    margin-left: 32px;
+}
+
+.imgHide2 img {
+    width: 500px;
+    height: 190px;
+
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.bell {
+    width: 67px;
+    height: 128px;
+}
+
+.bell img {
+    position: absolute;
+
+    width: 67px;
+    height: 128px;
+
+    margin-left: 230px;
+    margin-top: 215px;
+}
+
+.window img:nth-of-type(1) {
+    position: absolute;
+    width: 663px;
+    height: 389px;
+
+    margin-top: -470px;
+    margin-left: 470px;
+}
+
+.window img:nth-of-type(2) {
+    position: absolute;
+    mix-blend-mode: multiply;
+
+    width: 637px;
+    height: 41px;
+
+    margin-top: -462px;
+    margin-left: 485px;
+}
+
+/*산타2-----------------------------------------------------------------------------------------------------------------*/
+
+#santa2 {
+    position: absolute;
+
+    width: 95px;
+    height: 160px;
+
+    margin-top: 5100px;
+    margin-left: 577px;
+
+    opacity: 0;
+    transition: 1s;
+
+    z-index: 50;
+}
+
+/*마무리-----------------------------------------------------------------------------------------------------------------*/
+
+.blank2 {
+    position: relative;
+
+    width: 1920px;
+    height: 1150px;
+
+    left: 0;
+    right: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px dashed transparent;
+}
+
+.end_img {
+    position: absolute;
+    width: 45px;
+    height: 49px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 410px;
+    margin-left: auto;
+    margin-right: auto;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.end_text {
+    position: absolute;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 170%;
+    letter-spacing: -0.5px;
+
+    left: 0;
+    right: 0;
+
+    margin-top: 480px;
+    margin-left: auto;
+    margin-right: auto;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.sled {
+    position: absolute;
+    width: 1202px;
+    margin-top: 1000px;
+    margin-left: -1202px;
+    
+    z-index: 500;
+}
+
+/*footer-----------------------------------------------------------------------------------------------------------------*/
+
+.footer {
+    height: 150px;
+}
+
+.footer img {
+    position: relative;
+    overflow: hidden;
+
+    margin-top: 50px;
+}
+
+.footer p {
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 145%;
+    color: #ffffff;
+
+    margin-top: -158px;
+    margin-left: 360px;
+    opacity: 0.8;
+}
+
+.toTop img {
+    position: absolute;
+    width: 42px;
+
+    margin-top: -140px;
+    margin-left: 1500px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.blank {
+    height: 2650px;
+}
